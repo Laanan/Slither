@@ -8,8 +8,8 @@ from imap import ImapFunctions
 
 # My plan is to put the login info into a config file
 host = "imap.gmail.com"
-username = "matthall.dds@gmail.com"
-password = "twqahnuyavmhsdzl"
+username = "username@gmail.com"
+password = "password"
 
 ImapFunctions = ImapFunctions(host, username, password)
 ImapFunctions.login(username, password)
